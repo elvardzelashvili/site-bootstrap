@@ -85,7 +85,10 @@ button {
 .maincontainer {
   background: #f8f9fa;
 }
-
+.container {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
 .row {
   margin: 0px;
 }
@@ -95,4 +98,7 @@ button {
 nav a {
   color: black;
   list-style-type: none;
+}
+.center {
+  margin:auto;
 }
