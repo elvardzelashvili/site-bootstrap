@@ -83,14 +83,16 @@ button {
 /*reset css end*/
 
 .maincontainer {
-  background: #214B4A;
+  background: #f8f9fa;
 }
 
 .row {
   margin: 0px;
 }
-
+.img-fluid {
+  width: 200px;
+}
 nav a {
-  color: white;
+  color: black;
   list-style-type: none;
 }
