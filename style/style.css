@@ -97,13 +97,9 @@ button {
 }
 nav a {
   color: black;
-  list-style-type: none;
 }
 body
 {
   background-color: lightgrey;
 }
 
-.center {
-  margin:auto;
-}
