@@ -85,13 +85,13 @@ button {
 .maincontainer {
   background: #f8f9fa;
 }
-.container {
+/*.container {
     margin-right: 0px; 
     margin-left: 0px; 
 }
 .row {
   margin: 0px;
-}
+}*/
 .img-fluid {
   width: 200px;
 }
@@ -99,6 +99,11 @@ nav a {
   color: black;
   list-style-type: none;
 }
+body
+{
+  background-color: lightgrey;
+}
+
 .center {
   margin:auto;
 }
