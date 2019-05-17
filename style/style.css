@@ -127,22 +127,60 @@ nav a {
   margin-top: 30px;
 }
 .infosection {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .infosection p{
   font-size: 20px;
    font-family: "ninof";
   padding-bottom: 20px;
+  float: left;
 }
-h2 {
+.new_highlights h2 {
   font-size: 30px;
    font-family: "glaho";
   padding-bottom: 30px;
 }
 
-h3 {
+.new_highlights h3 {
   font-size: 24px;
   font-family: "glaho";
-  padding-bottom: 24px;
+  padding-bottom: 30px;
+  float: left;
+  margin-left: 20px;
 }
+.new_highlights img{
+  float: left;
+}
+.new_highlights a{
+  float: left;
+}
+.new_highlights {
+  margin-bottom: 30px;
+  float: left;
+}
+
+.imgh3 {
+   padding-bottom: 30px;
+}
+
+.new_highlights_flex
+{
+   padding-bottom: 30px;
+   margin-left: 20px;
+}
+
+.new_highlights_flex h2 {
+  font-size: 30px;
+   font-family: "glaho";
+ 
+}
+
+.new_highlights_flex h3 {
+  font-size: 24px;
+  font-family: "glaho";
+  margin-left: 20px;
+}
+
+
+
