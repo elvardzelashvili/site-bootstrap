@@ -82,24 +82,67 @@ button {
 }
 /*reset css end*/
 
-.maincontainer {
+.container-fluid{
   background: #f8f9fa;
 }
-/*.container {
-    margin-right: 0px; 
-    margin-left: 0px; 
+.header {
+ height: 100px;
+
 }
-.row {
-  margin: 0px;
-}*/
+header {
+
+  height: 100px;
+}
+
 .img-fluid {
   width: 200px;
 }
 nav a {
   color: black;
+  font-family: "ninof";
+  font-size: 24px;
 }
-body
+.bg-image {
+  background-image: url("../img/new-york-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+.bg-h1 
 {
-  background-color: lightgrey;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  color: white;
+}
+.bg-p {
+  font-size: 30px;
 }
 
+.btn{
+  margin-top: 30px;
+}
+.infosection {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.infosection p{
+  font-size: 20px;
+   font-family: "ninof";
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 30px;
+   font-family: "glaho";
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "glaho";
+  padding-bottom: 24px;
+}
