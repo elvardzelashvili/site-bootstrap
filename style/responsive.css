@@ -1,3 +1,31 @@
+@media only screen and (max-width: 768px) {
+
+.bg-h1 {
+  font-size: 36px;
+  margin-top: 30px;
+}
+.bg-p {
+    font-size: 24px;
+}
+.pt-5 {
+    padding-top: 2rem!important;
+}
+
+.infosection h3 {
+  font-size: 20px;
+}
+.infosection p {
+  font-size: 18px;
+}
+.new_highlights_flex {
+    margin-left: 0px; 
+}
+}
+
+
+
+
+
 @media only screen and (max-width: 576px) {
 
 .bg-h1 {
