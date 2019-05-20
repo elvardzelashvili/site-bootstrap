@@ -85,14 +85,6 @@ button {
 .container-fluid{
   background: #f8f9fa;
 }
-.header {
- height: 100px;
-
-}
-header {
-
-  height: 100px;
-}
 
 .img-fluid {
   width: 200px;
@@ -184,8 +176,10 @@ nav a {
 
 #readmoree {
   display: none;
+  transition:3s ease-in-out;
 }
 
 .navbar-toggler-icon {
     background-image: url("../img/menu.svg");
 }
+

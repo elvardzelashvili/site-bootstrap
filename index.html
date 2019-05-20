@@ -27,26 +27,30 @@
         <title>New York</title>
     </head>
     <body>
-        <div class="container-fluid header fixed-top ">
-
-          <header class="container  d-flex justify-content-between align-content-center align-items-center">
-             <a href="index.html" class="navbar-brand">
-              <img class="img-fluid" src="img/logo.png" alt="newyork_logo">
-          </a>
+        <div class="container-fluid fixed-top ">
+          <header class="container">
+             
           <nav class="navbar navbar-expand-lg ">
+            <a href="index.html" class="navbar-brand">
+              <img class="img-fluid" src="img/logo.png" alt="newyork_logo">
+             </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">           
-                <ul class="navbar-nav justify-content-space-around">
-                    <li class="nav-item"><a class="nav-link" href="#tours">homes</a></li>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#tours">homes</a></li>
 
                     <li class="nav-item"><a class="nav-link" href="#about">about city</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" 
+                        <a class="nav-link dropdown-toggle" data-toggle="navbarDropdown" 
                         data-target="data" href="#home">tours
                     </a>
                     <span class="caret"></span>
-                    <div class="dropdown-menu" aria-labelledby="#navbarSupportedContent">
+                    <div class="dropdown-menu" aria-labelledby="#navbarDropdown">
                        <a class="dropdown-item">zoo/park</a>
                        <a class="dropdown-item">cafes</a>
+                        <div class="dropdown-divider"></div>
                        <a class="dropdown-item">night life</a>
                    </div>
                </li>
@@ -55,15 +59,12 @@
            </ul>
 
        </div>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-    </button>
+       
     </nav>
     </header>
 
     </div>
-    <div class="clearfix"></div>
-
+    
     <div class="container-fluid bg-h1 bg-image ">
         <div class="container">
           <h1>The City of New York</h1>

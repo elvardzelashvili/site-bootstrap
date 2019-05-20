@@ -5,16 +5,15 @@ function readmore(argument) {
       var txt = document.getElementById("bt");
 
 
-      if (read.style.display === "none")  
+      if (read.style.display == "block")  
            {
-         read.style.display = "block";
-	     txt.innerHTML ="read less";
+         read.style.display = "none";
+	     txt.innerHTML ="read more";
 	     
       }
      else {
-     read.style.display = "none";
-     txt.innerHTML ="read more";
-
+     read.style.display = "block";
+     txt.innerHTML ="read less";
      }
     
 }
