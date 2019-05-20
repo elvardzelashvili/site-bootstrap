@@ -154,7 +154,7 @@ nav a {
 
 .imgh3 {
    padding-bottom: 30px;
-}
+ }
 
 .new_highlights_flex
 {
@@ -199,4 +199,20 @@ nav a {
   font-size: 24px;
   font-family: "glaho";
   margin-left: 20px;
+}
+
+.new_highlights_flexx p {
+  font-size: 20px;
+  font-family: "ninof";
+  float: none;
+ 
+}
+.center{
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+}
+
+.p30 {
+  padding:15px;
 }
